@@ -1,18 +1,37 @@
-/*
-* @Author: hyzhu
-* @Date: 2022-12-29 18:54:29 
-* @Last Modified by: hyzhu
-* @Last Modified time: 2022-12-29 18:54:29 
-*/
-
 /* 头部导航条 */
 .ssy-header {
+  display: flex;
   position: fixed;
   box-sizing: border-box;
   width: 100%;
   max-width: 640px;
   height: 2.3rem;
+  line-height: 2.3rem;
+  text-align: center;
   top: 0;
   z-index: 200;
   border-bottom: 1px solid #ddd;
+  background: #f8f8f8;
+}
+
+/* 左侧功能区 */
+.ssy-header>.left {
+  flex-basis: 4rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* 中间标题部分 */
+.ssy-header>.title {
+  flex-grow: 1;
+  /* 下面三条语句组合使用，就可以对单行超长文本做截断，并且在截断的地方自动补充省略号 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 右侧功能区 */
+.ssy-header>.right {
+  flex-basis: 4rem;
+  flex-shrink: 0;
 }
