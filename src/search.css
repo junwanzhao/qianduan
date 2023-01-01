@@ -1,0 +1,33 @@
+/* 搜索框 */
+.ssy-search {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #f8f8f8;
+}
+
+/* 搜索状态中，覆盖内容区 */
+.ssy-search.on-focus {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+/* 处理有标题栏的情况 */
+.ssy-header~.ssy-content .ssy-search.on-focus {
+  top: 2.3rem;
+}
+
+/* 处理有导航栏的情况 */
+.ssy-navbar~.ssy-content .ssy-search.on-focus {
+  bottom: 2.5rem;
+}
+
+/* 搜索栏中的表单 */
+.ssy-search>.ssy-search-form {
+  display: flex;
+  height: 2.3rem;
+  align-items: center;
+}
