@@ -1,9 +1,9 @@
 /* 列表的样式 */
-/* .ssy-list.flex{
-  display:flex;
+.ssy-list.flex {
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-} */
+}
 
 /* 列表里每一行的容器 */
 .ssy-list>.ssy-list-item {
@@ -14,10 +14,9 @@
   background: #fff;
   color: #333;
   border-bottom: 1px solid #eee;
+  flex-direction: column;
+  flex-basis: calc(50% - 2rem);
 }
-
-/* flex-direction:column 
- flex-basis:calc(50% - 2rem)*/
 
 /* 列表项的图片容器 */
 .ssy-list .item-img-wrap {
