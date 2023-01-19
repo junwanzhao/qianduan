@@ -34,9 +34,8 @@
 
           白衣道长瞳光流转，缓缓从怀中一白一黑两把宝剑身上掠过，一把清丽洁白、冷如霜花，一把通体乌黑、天生不祥。
 
-          他轻声说：“前尘皆忘，就不要再提。”
-
-          『想当年我也曾撒娇使性，到今朝那怕我不信前尘』
+          他轻声说：“前尘皆忘，就不要再提。”</p>
+        <p class="ssy-article-paragraph">『想当年我也曾撒娇使性，到今朝那怕我不信前尘』
 
           晓星尘早已下定决心出外云游，自然没有过多停留，他婉拒了宋岚的盛情，宋岚见他去意已决，也不好强求，只能送他一程。
 
@@ -340,12 +339,29 @@
           春雨依旧淅淅沥沥的下，万物在雨中连绵不绝的生，谁也不在乎是否曾有人无声无息的死。
 
           雨没有停的意思。</p>
-        <img src="" alt="">
-
-
+        <img class="ssy-article-img" src="./img/薛晓.jpg" alt="测试图片">
+      </div>
+      <div class="ssy-article-unfold-btn" id="js-unfold">
+        <i class="fa fa-angle-double-down fa-vibrate-y"></i>
+      </div>
+    </div>
+    <div class="ssy-panel">
+      <div class="ssy-panel-title">其它内容</div>
+      <div class="ssy-panel-body">
+        其它内容......
       </div>
     </div>
   </div>
+
+  <script>
+    window.onload = () => {
+      // 展开文章
+      document.querySelector('#js-unfold').onclick = (e) => {
+        document.querySelector('.ssy-article').classList.remove('fold');
+
+      }
+    };
+  </script>
 </body>
 
 </html>
