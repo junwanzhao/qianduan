@@ -10,3 +10,5 @@
 
 0.1.4
 - 【Bug Fix】Search 组件指定 z-index，解决和有定位元素同时使用时的层级错乱问题
+
+- 【Bug Fix】修复Article组件中图片不居中的问题。 
