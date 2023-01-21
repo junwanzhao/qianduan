@@ -3,7 +3,9 @@
   box-sizing: border-box;
   position: relative;
   overflow-y: auto;
-  height: 100%;
+  /* padding-top: 2.3rem;
+  padding-bottom: 2.5rem; */
+  /* height: 100%; */
 }
 
 /* 根据header和navbar自动适应内容区高度 */
