@@ -43,3 +43,10 @@
 .ssy-content .ssy-panel-body.no-padding {
   padding: 0;
 }
+
+/* 标题导航 */
+.ssy-content .ssy-panel-title>.ssy-panel-link {
+  float: right;
+  margin-right: 1rem;
+  color: #aaa;
+}

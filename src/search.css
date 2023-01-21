@@ -1,9 +1,15 @@
 /* 搜索框 */
 .ssy-search {
-  position: fixed;
+  /* width: 100%; */
+  /* position: fixed; */
   max-width: 640px;
+  /* position: fixed; */
+  /* left: 0;
+  right: 0;
+  top: 0; */
   margin: 0 auto;
   background: #f8f8f8;
+  z-index: 110;
 }
 
 /* 搜索状态中，覆盖内容区 */

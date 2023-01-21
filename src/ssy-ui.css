@@ -48,3 +48,7 @@
 
 /* article文本组件 */
 @import './article.css';
+/* > 0.5%
+last 2 version
+not ie <= 10
+not ie_mob <= 10 */
